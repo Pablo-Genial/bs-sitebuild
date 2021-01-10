@@ -1,0 +1,15 @@
+.btn {
+    border-radius: 30px;
+}
+.pinkarea {
+     margin: 0;
+     background: url("./img/bg-pattern.png") repeat;
+ } 
+
+.background-img { 
+            background-image: url("./img/bg-cta.jpg"); 
+            filter: brightness(90%); 
+            filter: grayscale(70%);
+            background-position: center;
+            background-size: cover;            
+                }
