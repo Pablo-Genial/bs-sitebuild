@@ -29,11 +29,10 @@
 
 
 <body class="d-flex flex-column min-vh-100">
-
     <div class="d-flex flex-column min-vh-100 pinkarea">
         <!-- Felső navbar -->
 
-        <nav class="navbar navbar-expand-lg navbar-light d-flex flex-row">
+        <nav class="navbar navbar-expand-lg navbar-light d-flex flex-row sticky-top">
             <!-- nav-brand -->
             <a class="navbar-brand" href="#">Start Bootsrtap</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -44,14 +43,14 @@
             <!-- nav-bar -->
             <div class="ml-auto collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Download <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DOWNLOAD <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">FEATURES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -64,12 +63,17 @@
                 <div class="row">
                     <div class="media col-md-6 offset-3">
                         <div class="row">
-                            <div class="col-md-6">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam error, sapiente
-                                    quaerat distinctio eligendi.
+                            <div class="col-md-6 align-self-center">
+                                <p class="h3 text-light font-weight-normal">New Age is an app help you beautifully
+                                    showcase
+                                    your new mobile
+                                    app, or
+                                    anything else!
                                 </p>
                                 <footer>
-                                    <a href="#" class="btn btn-outline-primary">START NOW FOR FREE</a>
+                                    <a href="#" class="btn btn-sm btn-outline-light start-btn"><small> START
+                                            NOW FOR FREE</small>
+                                    </a>
                                 </footer>
                             </div>
                             <div class="col-md-6">
@@ -116,54 +120,50 @@
         <div class="div">
             <div class="container col-8 offset-2">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 parent-img">
                         <img src="./img/phone.png" alt="phone" class="w-100">
-                        <!-- <img src="./img/demo-screen-1.jpg" alt="screen" class="w-100> -->
+                        <!-- <img src="./img/demo-screen-1.jpg" alt="screen" class="child-img"> -->
                     </div>
 
 
                     <div class=" row col-md-8">
                         <div class="col-sm-6">
                             <div class="card border-0">
-                                <div class="card-body">
-                                    <p class="card-title text-center">&#128382</p>
-                                    <h5 class="card-title text-center">Device Mockups</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's
-                                        content.</p>
+                                <div class="card-body text-center">
+                                    <p class="card-title h2">&#128241</p>
+                                    <h5 class="card-title">Device Mockups</h5>
+                                    <p class="card-text">Ready to use HTML/CSS device mockups, no Photoshop required!
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="card border-0">
-                                <div class="card-body">
-                                    <p class="card-title text-center">&#128449</p>
-                                    <h5 class="card-title text-center">Flexible Use</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's
-                                        content.</p>
+                                <div class="card-body text-center">
+                                    <p class="card-title h2">&#128247</p>
+                                    <h5 class="card-title">Flexible Use</h5>
+                                    <p class="card-text">Put an image, video, animation, or anything else in the screen!
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="card border-0">
-                                <div class="card-body">
-                                    <p class="card-title text-center">&#128386</p>
-                                    <h5 class="card-title text-center">Free to Use</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's
-                                        content.</p>
+                                <div class="card-body text-center">
+                                    <p class="card-title h2">&#127873</p>
+                                    <h5 class="card-title">Free to Use</h5>
+                                    <p class="card-text">As always, this theme is free to download and use for any
+                                        purpose!</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="card border-0">
-                                <div class="card-body">
-                                    <p class="card-title text-center">&#128470</p>
-                                    <h5 class="card-title text-center">Open Source</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's
-                                        content.</p>
+                                <div class="card-body text-center">
+                                    <p class="card-title h2">&#128275</p>
+                                    <h5 class="card-title">Open Source</h5>
+                                    <p class="card-text">Since this theme is MIT licensed, you can use it commercially!
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -186,19 +186,19 @@
 
     <!-- We love new friends -->
 
-    <div class="jumbotron  bg-warning mb-0">
+    <div class="jumbotron bg-warning mb-0">
         <h3 class="font-weight-normal text-center">We <span class="text-danger">&#9829</span> new friends!</h3>
         <div class="text-center">
             <a href="#" class="mr-2" data-toggle="tooltip" data-placement="top" title="Twitter">
-                <i class="text-info fab fa-twitter fa-2x" aria-hidden="true"></i>
+                <i class="fab fa-twitter fa-2x text-white bg-transparent" aria-hidden="true"></i>
                 <span class="sr-only">Link a Twitter oldalára</span>
             </a>
             <a href="#" class="mr-2" data-toggle="tooltip" data-placement="top" title="Facebook">
-                <i class="text-primary fab fa-facebook fa-2x" aria-hidden="true"></i>
+                <i class="fab fa-facebook fa-2x text-primary" aria-hidden="true"></i>
                 <span class="sr-only">Link a Facebook oldalára</span>
             </a>
             <a href="#" data-toggle="tooltip" data-placement="top" title="Google+">
-                <i class="text-danger fab fa-google-plus fa-2x" aria-hidden="true"></i>
+                <i class="fab fa-google-plus fa-2x text-danger" aria-hidden="true"></i>
                 <span class="sr-only">Link a Google Plus oldalára</span>
             </a>
         </div>
@@ -209,9 +209,87 @@
     <footer>
         <div class="text-center bg-dark mb-0 text-muted">
             <p class="mb-0 mt-0 pt-2">© Your Website 2018. All Rights Reserved.</p>
-            <p class="mb-0">Privacy Terms FAQ</p>
+            <div class="mb-0">
+                <a data-toggle="modal" data-target="#privacyModal" href="#"
+                    class="card-link mt-auto text-muted">Privacy</a>
+                <a data-toggle="modal" data-target="#termsModal" href="#" class="card-link mt-auto text-muted">Terms</a>
+                <a data-toggle="modal" data-target="#faqModal" href="#" class="card-link mt-auto text-muted">FAQ</a>
+
+            </div>
         </div>
+
     </footer>
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+    </button> -->
+
+    <!-- Modals -->
+    <div class="modal fade" id="privacyModal" tabindex="-1" role="dialog" aria-labelledby="privacyModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="privacyModalLabel">Privacy terms</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius tempore possimus ipsam asperiores!
+                    Cumque, facilis dolores, beatae quos fuga esse dignissimos atque quas placeat explicabo similique
+                    dolor, eveniet praesentium iusto.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-labelledby="termsModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="termsModalLabel">Termes of use</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius tempore possimus ipsam asperiores!
+                    Cumque, facilis dolores, beatae quos fuga esse dignissimos atque quas placeat explicabo similique
+                    dolor, eveniet praesentium iusto.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="faqModal" tabindex="-1" role="dialog" aria-labelledby="faqModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="faqModalLabel">Frequently asked questions</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius tempore possimus ipsam asperiores!
+                    Cumque, facilis dolores, beatae quos fuga esse dignissimos atque quas placeat explicabo similique
+                    dolor, eveniet praesentium iusto.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
 
 
 </body>

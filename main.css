@@ -3,13 +3,31 @@
 }
 .pinkarea {
      margin: 0;
-     background: url("./img/bg-pattern.png") repeat;
- } 
+     background-image: url('./img/bg-pattern.png'), linear-gradient(to right,#FF5A49, #9E47D4);
+    } 
 
 .background-img { 
-            background-image: url("./img/bg-cta.jpg"); 
-            filter: brightness(90%); 
-            filter: grayscale(70%);
-            background-position: center;
-            background-size: cover;            
+    background-image: url("./img/bg-cta.jpg"); 
+    filter: brightness(90%); 
+    filter: grayscale(70%);
+    background-position: center;
+    background-size: cover;            
                 }
+.btn:hover {
+    border: solid 1px #fdcc52;
+    background-color: transparent;
+    color: #fdcc52;
+}
+
+
+.navbar {
+    background-color: white;
+}
+
+.navbar:hover {
+    background-color: transparent;
+}
+
+a.navbar-brand {
+    color: yellow    
+}
